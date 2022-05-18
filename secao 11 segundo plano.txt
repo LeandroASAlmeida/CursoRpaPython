@@ -1,0 +1,12 @@
+
+"C:\Users\aprde\AppData\Roaming\Python\Python39\site-packages\tagui.py"  --  abrir no python
+
+    # invoke web browser accordingly with tagui option
+
+    browser_option = '' ====== valor fica vazio
+    if chrome_browser:
+        #browser_option = 'chrome'                                      #comenta o chrome_browser SE QUISER FAZER ATIVIDADE EM SEGUNDO PLANO.
+        browser_option = 'headless'                                   #deixa ativo so o headless
+       
+
+    # special handling for turbo mode to run 10X faster
