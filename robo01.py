@@ -7,7 +7,7 @@ import pyautogui as p               #importando a biblioteca e chamando a de "p"
 
 #p.click(x=101, y=138)
 
-def bot01():
+def  bot01():
 
     p.hotkey('win','r')
     p.sleep(1)
@@ -20,10 +20,11 @@ def bot01():
     p.sleep(2)
     valor = p.getActiveWindow()
     valor.close()
-    p.press('right')
     p.sleep(2)
     p.press('right')
-    p.sleep(2)
     p.press('enter')
     p.FAILSAFE = False   ### no modulo de schedule tem que colocar esse parametro.
+
+
+
 

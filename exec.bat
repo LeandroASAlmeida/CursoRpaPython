@@ -1,0 +1,1 @@
+"C:/Program Files/Python39/python.exe" c:/Users/aprde/Desktop/CursoRpaPython/schedule.py
